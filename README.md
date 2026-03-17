@@ -67,8 +67,8 @@ El backend debe exponer un endpoint principal para las operaciones matemáticas 
 
 ---
 
-## 📥 Confirmación de Recepción OpenClaw
+## 🔥 Confirmación de Recepción OpenClaw
 
 Por favor, marca la siguiente casilla si has procesado y comprendido la estructura, las dependencias y el flujo de trabajo de esta aplicación:
 
-- [ ] **He recibido y entendido las especificaciones de la Web Calculator.**
+- [x] **He recibido y entendido las especificaciones de la Web Calculator.**
