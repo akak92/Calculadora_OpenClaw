@@ -1,9 +1,15 @@
 from pydantic import BaseModel
+from typing import Literal
 
 
 class CalculationRequest(BaseModel):
-    pass
+    num1: float
+    num2: float
+    operation: Literal["+", "-", "*", "/"]
 
 
 class CalculationResponse(BaseModel):
-    pass
+    result: float
+    operation: str
+    num1: float
+    num2: float
