@@ -44,5 +44,3 @@ def calculate(payload: CalculationRequest) -> CalculationResponse:
         raise HTTPException(status_code=400, detail=f"Unsupported operation: {operation}")
 
     return CalculationResponse(result=result, operation=operation, num1=num1, num2=num2)
-def calculate(payload: CalculationRequest):
-    pass
