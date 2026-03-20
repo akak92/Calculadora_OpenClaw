@@ -1,8 +1,11 @@
-export default function App() {
+import '../styles/global.css';
+
+function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '80px', fontFamily: 'sans-serif' }}>
-      <h1>Calculadora OpenClaw</h1>
-      <p>Proyecto inicializado con Vite + React</p>
+    <div>
+      <h1>Calculadora</h1>
     </div>
-  )
+  );
 }
+
+export default App;
